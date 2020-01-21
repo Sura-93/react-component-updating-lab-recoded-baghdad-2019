@@ -22,6 +22,9 @@ class Timer extends Component {
   componentWillUnmount() {
     clearInterval(this.interval);
   }
+  componentDidUpdate () {
+    
+  }
 
   render() {
     const { time, color, logText } = this.state;
