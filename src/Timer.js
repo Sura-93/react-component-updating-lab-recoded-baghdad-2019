@@ -23,7 +23,7 @@ class Timer extends Component {
     clearInterval(this.interval);
   }
   componentDidUpdate () {
-    
+
   }
 
   render() {
